@@ -10,10 +10,15 @@ date: "2024-11-27"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
+L'impact des médias sociaux sur la mobilisation politique des jeunes au Québec.
+
+L'utilisation de l'outil Notion a permis de suivre toutes les étapes du projet du début à la fin. Notion est un outil de gestion de projet.
 Comment les médias sociaux influencent-ils la mobilisation politique des jeunes au Québec ?
-J'ai utilisé Google scholar pour faire la recherche de littérature et j'ai également utilsé Zotero qui est un outil de gestion de réfrence pour générer ma bibliographie.
-Ceci est un test
+Pour répondre à cette question, j'ai fait une recension et une analyse des travaux existants sur le sujet en utilisant Elicit qui est un outil de gestion de littérature et Zotero pour organiser ma bibliographie.
+L'hypothèse dérivée de la théorie est que Les jeunes Québécois utilisent principalement Facebook pour s'engager politiquement, et ce plateforme augmente leur participation aux campagnes.
+J'ai crée un question via google form qui est un outil de collecte de données. Pour collecter mes résulats, j'ai utilisé R qui offre une grande possibilité de visualisation avec son package ggplot. 
+Par ailleurs, l'utilisateur de l'intelligence artificielle pour éclairer dans certains codes.
+Enfin, j'ai utilisé Latex pour rédiger le travail. Latex qui est un outil de rédaction
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
@@ -25,7 +30,8 @@ summary(cars)
 ## Including Plots
 
 You can also embed plots, for example:
-
+library(readxl)
+df <- read_xlsx("documents/sondage médias sociaux.xlsx")
 ```{r pressure, echo=FALSE}
 plot(pressure)
 ```
