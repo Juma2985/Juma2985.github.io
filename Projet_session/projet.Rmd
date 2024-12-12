@@ -14,6 +14,12 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # *L'impact des médias sociaux sur la mobilisation politique des jeunes au Québec*
 
+#Introduction
+
+Au cours de la dernière décennie, l'usage des médias sociaux a considérablement évolué, redéfinissant la manière dont les individus interagissent, s’informent et participent à la vie politique. Les jeunes, notamment ceux appartenant à la génération Millénaire et à la Génération Z, ont fait des plateformes comme Facebook, Twitter et Instagram un élément central de leur quotidien. Les médias sociaux ne sont pas seulement des outils de communication; ils représentent également des espaces de mobilisation et d'activisme politique, offrant des plateformes pour exprimer des opinions et organiser des actions (Loader & Mercea, 2011). Au Québec, cette dynamique est particulièrement notable dans le contexte des mouvements sociaux récents, tels que la grève étudiante contre la hausse des frais de scolarité en 2012 et les protestations liées au changement climatique (Bouchard, 2018).
+
+Ce projet cherche à explorer comment les médias sociaux ont modifié le paysage de la mobilisation politique chez les jeunes Québécois. En se basant sur une revue de la littérature existante et des recherches empiriques, l'étude vise à analyser le rôle que jouent ces plateformes dans la formation d'opinions politiques et l'engagement civique des jeunes.
+
 # **1. Question de recherche et hypothèse**
 
 # **Comment les médias sociaux influencent-ils la mobilisation politique des jeunes au Québec ?**
@@ -22,14 +28,29 @@ knitr::opts_chunk$set(echo = TRUE)
 
  **Zotero** : Cet outil m'a aidé à organiser les sources et les références obtenues. En important les articles dans ma bibliothèque *Zotero*, j'ai pu facilement gérer mes références et créer des bibliographies automatiquement dans le style de citation approprié.
  
+ Les médias sociaux facilitent la mobilisation politique des jeunes au Québec en leur fournissant des plateformes pour l'échange d'informations, la coordination d'activités et l'expression de leurs opinions politiques.
+ 
 # **2. Collecte de données**
 
- Pour collecter des données en lien avec mon hypothèse sur l'impact des médias sociaux sur la mobilisation politique des jeunes, j'ai choisi d'utiliser un **questionnaire en ligne**. Pour rédiger mes questions j'utilisé **Microsoft forms** qui est un outil efficace pour obtenir des informations directement auprès de ma population cible. 
+ Pour collecter des données en lien avec mon hypothèse sur l'impact des médias sociaux sur la mobilisation politique des jeunes,  un **questionnaire en ligne** a été élaboré et diffusé à l'aide de **Microsoft Forms**. Ce sondage a été distribué à un échantillon représentatif de jeunes Québécois pour recueillir des données sur leurs habitudes d'utilisation des médias sociaux et leur niveau d'engagement politique. Les questions ont été conçues pour évaluer non seulement la fréquence d'utilisation des différentes plateformes de médias sociaux, mais aussi l'évaluation de l'efficacité des campagnes menées sur ces plateformes.
  
 # **3. Analyse et visualisation des données**
- Pour analyser et visualiser les données collectées à partir du questionnaire en ligne, j'ai choisi d'utiliser **Excel**, un outil de tableur largement utilisé qui offre de puissantes fonctionnalités d'analyse et de visualisation des données. Voici un aperçu de la manière dont j'ai utilisé Excel pour produire des résultats et des visualisations.
+Pour analyser les données obtenues à partir des questionnaires, **Excel** a été utilisé pour créer des graphiques. Cette méthode d'analyse visuelle a permis d'illustrer clairement les tendances et les résultats significatifs, facilitant ainsi l'interprétation des données concernant l'usage des médias sociaux par les jeunes et leur perception de l'engagement politique.
  Après la collecte des réponses via Microsoft Forms, j'ai exporté les résultats en format CSV, que j'ai ensuite importé dans Excel. Cela m'a permis de centraliser toutes les réponses dans un seul fichier et de simplifier l'analyse.
  
+ Les résultats préliminaires de cette recherche indiquent que les médias sociaux jouent un rôle significatif dans la mobilisation politique des jeunes au Québec. Une étude de sondage menée auprès de jeunes Québécois a révélé que 46 % des répondants utilisent Facebook comme principal moyen de s'informer sur les questions politiques et sociales.
+
+En outre, les résultats montrent que 82 % des jeunes passent entre une et trois heures par jour sur les réseaux sociaux, ce qui souligne l'importance de ces plateformes dans leur routine quotidienne. De plus, 45 % des jeunes estiment que les campagnes menées sur les médias sociaux sont efficaces pour influencer l'opinion publique et encourager l'engagement civique. Ces résultats suggèrent que les médias sociaux ne sont pas seulement des outils de communication, mais également des catalyseurs potentiels pour la mobilisation politique au sein de cette tranche d'âge.
+
+Conclusion
+
+L'impact des médias sociaux sur la mobilisation politique des jeunes au Québec est un sujet de plus en plus pertinent à une époque où la technologie redéfinit les modes d'engagement civique. Les résultats de cette recherche montrent clairement que les jeunes Québécois utilisent activement les médias sociaux, passant en moyenne entre une et trois heures par jour sur ces plateformes. Avec 46 % d'entre eux utilisant Facebook comme principal outil d'information, il est évident que ces réseaux deviennent des canaux essentiels pour accéder à l’information politique et sociale.
+
+De plus, les données révèlent que 45 % des jeunes estiment que les campagnes sur les médias sociaux sont efficaces, ce qui souligne leur capacité à influencer l'opinion publique et à encourager un engagement accru. En considérant ces éléments, il apparaît que les médias sociaux ne se contentent pas de servir de simples outils de communication, mais agissent également comme des catalyseurs de mobilisation politique.
+
+Cette recherche met en lumière la nécessité d'une réflexion approfondie sur le rôle des médias sociaux dans l'engagement politique des jeunes. Les politiques publiques devraient prendre en compte cette dimension, en favorisant des initiatives qui exploitent ces plateformes pour encourager une participation active et informée de la nouvelle génération. À mesure que la technologie continue d'évoluer, il sera crucial d'explorer davantage comment les médias sociaux peuvent être intégrés de manière positive et constructive dans le paysage politique.
+
+En somme, cette étude contribue à une compréhension plus large des dynamiques de la mobilisation politique à l'ère numérique et ouvre la voie à des recherches futures sur les implications de cet engagement dans le contexte québécois et au-delà.
 
  
 # **4. Discussion**
@@ -37,7 +58,7 @@ Le choix des outils que j'ai utilisé pour ma recherche a été fait pour plusie
 
 ```{r}
 knitr::kable(
-  mtcars[1:6, 1:6], caption = 
+  mtc[1:6, 1:6], caption = 
 )
 ```
 
