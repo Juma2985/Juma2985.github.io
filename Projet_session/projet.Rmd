@@ -1,39 +1,75 @@
 ---
-title: "projet_session"
-output:
-  pdf_document: default
-  html_document: default
+title: "Mon Projet"
+author: "Aïcha Juma"
 date: "2024-11-27"
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-L'impact des médias sociaux sur la mobilisation politique des jeunes au Québec.
+# *L'impact des médias sociaux sur la mobilisation politique des jeunes au Québec*
 
-L'utilisation de l'outil Notion a permis de suivre toutes les étapes du projet du début à la fin. Notion est un outil de gestion de projet.
-Comment les médias sociaux influencent-ils la mobilisation politique des jeunes au Québec ?
-Pour répondre à cette question, j'ai fait une recension et une analyse des travaux existants sur le sujet en utilisant Elicit qui est un outil de gestion de littérature et Zotero pour organiser ma bibliographie.
-L'hypothèse dérivée de la théorie est que Les jeunes Québécois utilisent principalement Facebook pour s'engager politiquement, et ce plateforme augmente leur participation aux campagnes.
-J'ai crée un question via google form qui est un outil de collecte de données. Pour collecter mes résulats, j'ai utilisé R qui offre une grande possibilité de visualisation avec son package ggplot. 
-Par ailleurs, l'utilisateur de l'intelligence artificielle pour éclairer dans certains codes.
-Enfin, j'ai utilisé Latex pour rédiger le travail. Latex qui est un outil de rédaction
+# **1. Question de recherche et hypothèse**
+
+# **Comment les médias sociaux influencent-ils la mobilisation politique des jeunes au Québec ?**
+
+ **Google Scholar** : J'ai utilisé *Google Scholar* pour effectuer des recherches approfondies sur le sujet. En utilisant des mots-clés tels que "médias sociaux", "mobilisation politique", et "jeunes", j'ai pu accéder à des articles académiques, des revues et des études de cas qui ont fourni des données empiriques pertinentes pour ma recherche. Les résultats m'ont permis de collecter des arguments solides pour formuler ma revue de littérature.
+
+ **Zotero** : Cet outil m'a aidé à organiser les sources et les références obtenues. En important les articles dans ma bibliothèque *Zotero*, j'ai pu facilement gérer mes références et créer des bibliographies automatiquement dans le style de citation approprié.
+ 
+# **2. Collecte de données**
+
+ Pour collecter des données en lien avec mon hypothèse sur l'impact des médias sociaux sur la mobilisation politique des jeunes, j'ai choisi d'utiliser un **questionnaire en ligne**. Pour rédiger mes questions j'utilisé **Microsoft forms** qui est un outil efficace pour obtenir des informations directement auprès de ma population cible. 
+ 
+# **3. Analyse et visualisation des données**
+ Pour analyser et visualiser les données collectées à partir du questionnaire en ligne, j'ai choisi d'utiliser **Excel**, un outil de tableur largement utilisé qui offre de puissantes fonctionnalités d'analyse et de visualisation des données. Voici un aperçu de la manière dont j'ai utilisé Excel pour produire des résultats et des visualisations.
+ Après la collecte des réponses via Microsoft Forms, j'ai exporté les résultats en format CSV, que j'ai ensuite importé dans Excel. Cela m'a permis de centraliser toutes les réponses dans un seul fichier et de simplifier l'analyse.
+ 
+
+ 
+# **4. Discussion**
+Le choix des outils que j'ai utilisé pour ma recherche a été fait pour plusieurs raisons.
+
+```{r}
+knitr::kable(
+  mtcars[1:6, 1:6], caption = 
+)
+```
+
+# Table columns
+
+
+
+
+l'accessibilité, l'existence d'une communauté d'utilisateurs, la popularité dans votre domaine, leur compatibilité avec d'autres outils, le besoin de transparence et la réplicabilité, et la capacité d'adaptabilité et de flexibilité des outils.
+
+## R Markdown
+### R Markdown
+#### R Markdown
+
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
-```{r cars}
-summary(cars)
+```{r load-data, echo=FALSE}
+if (!requireNamespace("readxl", quietly = TRUE))
+install.packages("readxl")
+library(readxl)
+file_path <- "/Users/aichajuma/Documents/data"
+print( "/Users/aichajuma/Documents/data")
+head(data)
 ```
 
-## Including Plots
+
 
 You can also embed plots, for example:
-library(readxl)
-df <- read_xlsx("documents/sondage médias sociaux.xlsx")
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
+
+
+
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
